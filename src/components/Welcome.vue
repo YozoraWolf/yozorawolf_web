@@ -39,6 +39,8 @@ export default {
             font-family: $ffamily;
             font-size: 40px;
 
+            text-align: center;
+
             text-shadow: 0px 0px 4px white;
         }
     }
