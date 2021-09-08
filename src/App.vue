@@ -1,28 +1,47 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div>
+        <Header />
+        <Welcome />
+        <AboutMe />
+        <Skills />
+        <Projects :projects="getProjs()" />
+        <Map />
+        <MapModal />
+        <Footer />
+    </div>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue';
+import Welcome from './components/Welcome.vue';
+import AboutMe from './components/AboutMe.vue';
+import Skills from './components/Skills.vue';
+import Projects from './components/Projects.vue';
+import Map from './components/Map.vue';
+import MapModal from './components/modals/MapModal.vue';
+import Footer from './components/Footer.vue';
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+    name: 'App',
+    components: {
+        Header,
+        Welcome,
+        AboutMe,
+        Skills,
+        Projects,
+        Map,
+        MapModal,
+        Footer
+    },
+    methods: {
+        getProjs() {
+            return require("./assets/data/projects.json");
+        }
+    }
+};
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss">
+
 </style>

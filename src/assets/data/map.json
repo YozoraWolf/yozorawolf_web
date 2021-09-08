@@ -1,0 +1,49 @@
+{
+  "FR":{
+    "id": "fr",
+    "name":"France",
+    "period":"2012-2013",
+    "desc": "",
+    "titles": ["Exchange Student"],
+    "awards": [],
+    "participations":[],
+    "flag":"https://en.wikipedia.org/wiki/Flag_of_France#/media/File:Flag_of_France.svg"
+  },
+  "US":{
+    "id": "us",
+    "name":"United States",
+    "period":"2015-2017",
+    "desc": "",
+    "titles": ["International Student", "President of The Japanese Club at Lone Star College - Kingwood"],
+    "awards": [
+      "Presidential Honor's List (2015)",
+      "Presidential Honor's List (2016)",
+      "Presidential Honor's List (2017)",
+      "Student of the Year (2017) by Lone Star College - Kingwood"],
+    "participations": [
+      "CodeRED Hackathon at The University of Houston (2015)",
+      "EarthHack Hackathon at Fair Park, Dallas (2017)"
+    ],
+    "flag":"https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/320px-Flag_of_the_United_States.svg.png"
+  },
+  "JP":{
+    "id": "jp",
+    "name":"Japan",
+    "period":"2013-2015",
+    "desc": "",
+    "titles": ["International Student"],
+    "awards": ["努力賞（Effort Award）by Shinjuku Japanese Language Institute"],
+    "participations":["Interview at The Japan Times (2014)"],
+    "flag":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/320px-Flag_of_Japan.svg.png"
+  },
+  "VE":{
+    "id": "ve",
+    "name":"Venezuela",
+    "period":"1995-2012, Feb 2013 - Sept 2013, 2017-Present",
+    "desc": "",
+    "titles": ["Citizen"],
+    "awards": [],
+    "participations":[],
+    "flag":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Venezuela.svg/320px-Flag_of_Venezuela.svg.png"
+  }
+}

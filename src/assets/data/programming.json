@@ -1,0 +1,142 @@
+[
+    {
+        "id": "csharp",
+        "name": "C#",
+        "proficiency": 70.0
+    },
+    {
+        "id": "java",
+        "name": "Java",
+        "proficiency": 80.0
+    },
+    {
+        "id": "python",
+        "name": "Python",
+        "proficiency": 70.0
+    },
+    {
+        "id": "html5",
+        "name": "HTML",
+        "proficiency": 100.0
+    },
+    {
+        "id": "css3",
+        "name": "CSS",
+        "proficiency": 100.0
+    },
+    {
+        "id": "sass",
+        "name": "Sass",
+        "proficiency": 80.0
+    },
+    {
+        "id": "javascript",
+        "name": "JavaScript",
+        "proficiency": 100.0
+    },
+    {
+        "id": "typescript",
+        "name": "TypeScript",
+        "proficiency": 75.0
+    },
+    {
+        "id": "nodejs",
+        "name": "Node.JS",
+        "proficiency": 80.0
+    },
+    {
+        "id": "php",
+        "name": "PHP",
+        "proficiency": 40.0
+    },
+    {
+        "id": "lua",
+        "name": "LUA",
+        "proficiency": 80.0
+    },
+    {
+        "id": "cplusplus",
+        "name": "C++",
+        "proficiency": 30.0
+    },
+    {
+        "id": "amazonwebservices",
+        "name": "AWS",
+        "proficiency": 70.0
+    },
+    {
+        "id": "azure",
+        "name": "Azure",
+        "proficiency": 60.0
+    },
+    {
+        "id": "json",
+        "name": "JSON",
+        "proficiency": 100.0
+    },
+    {
+        "id": "xml",
+        "name": "XML",
+        "proficiency": 100.0
+    },
+    {
+        "id": "spring",
+        "name": "SpringBoot",
+        "proficiency": 80.0
+    },
+    {
+        "id": "android",
+        "name": "Android",
+        "proficiency": 70.0
+    },
+    {
+        "id": "bootstrap",
+        "name": "Bootstrap",
+        "proficiency": 80.0
+    },
+    {
+        "id": "dotnetcore",
+        "name": ".NET",
+        "proficiency": 60.0
+    },
+    {
+        "id": "git",
+        "name": "Git",
+        "proficiency": 90.0
+    },
+    {
+        "id": "jquery",
+        "name": "JQuery",
+        "proficiency": 80.0
+    },
+    {
+        "id": "linux",
+        "name": "Linux",
+        "proficiency": 68.0
+    },
+    {
+        "id": "mysql",
+        "name": "MySQL",
+        "proficiency": 70.0
+    },
+    {
+        "id": "microsoftsqlserver",
+        "name": "MS SQL Server",
+        "proficiency": 70.0
+    },
+    {
+        "id": "mongodb",
+        "name": "MongoDB",
+        "proficiency": 80.0
+    },
+    {
+        "id": "raspberrypi",
+        "name": "Raspberry Pi",
+        "proficiency": 75.0
+    },
+    {
+        "id": "vuejs",
+        "name": "VueJS",
+        "proficiency": 75.0
+    }
+]

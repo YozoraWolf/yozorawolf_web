@@ -1,0 +1,51 @@
+[
+    {
+        "code":"downlooru",
+        "logo_url": "code0.jpg",
+        "title": "Downlooru",
+        "desc": "Bulk Download Application for Booru-Type Image-servers.",
+        "langs": ["csharp"]
+    },
+    {
+        "code":"csflopapp",
+        "logo_url": "code1.jpg",
+        "title": "CSFLopApp",
+        "desc": "Private Android Application that calculates complex mathematical operations in the Industrial Security Field.",
+        "langs": ["java", "android"]
+    },
+    {
+        "code":"csfhazapp",
+        "logo_url": "code2.jpg",
+        "title": "CSFHazApp",
+        "desc": "Private Android Application that calculates complex mathematical operations in the Industrial Security Field.",
+        "langs": ["java", "android"]
+    },
+    {
+        "code":"brico",
+        "logo_url": "chatbot.jpg",
+        "title": "Bot Brico Tienda",
+        "desc": "A Bot for the Brico Shop made with MS Bot Framework",
+        "langs": ["nodejs"]
+    },
+    {
+        "code":"acuacar",
+        "logo_url": "meter.jpg",
+        "title": "Acuacar API",
+        "desc": "An API system used to check water usage meters using an Online AI to determine many values associated with pictures taken by operators. Many controllers and a KPI system is included to further analize the results of water meter check either with a daily, weekly or monthly temporality.",
+        "langs": ["spring", "java", "mongodb"]
+    },
+    {
+        "code":"smartgreen",
+        "logo_url": "sprinklers.jpg",
+        "title": "SmartGreen API",
+        "desc": "Added support for the MQTT Communication Protocol, encoding data in Base64 from/to Hexadecimal to send messages to low-power devices that utilize the LoRa modulation technique through MQTT.",
+        "langs": ["spring", "java", "mysql"]
+    },
+    {
+      "code":"fira",
+      "logo_url": "live.jpg",
+      "title": "FIRA API",
+      "desc": "A system dedicated to livestreamed e-commerce where clients can watch a product presentation, comment and purchase products live with an extensive list of payment methods.",
+      "langs": ["spring", "java", "amazonwebservices"]
+  }
+]
