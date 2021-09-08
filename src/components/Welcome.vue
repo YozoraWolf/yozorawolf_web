@@ -13,7 +13,7 @@ export default {
     name: "Welcome",
     data() {
         return {
-            welcome: require("./../assets/bgs/main4.png")
+            welcome: require("./../assets/bgs/main4.jpg")
         }
     }
 }
