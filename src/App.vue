@@ -1,20 +1,14 @@
 <template>
-    <html lang="en" amp>
-        <head>
-        <title>YozoraWolf</title>
-        ...
-        </head>
-        <div>
-            <Header />
-            <Welcome />
-            <AboutMe />
-            <Skills />
-            <Projects :projects="getProjs()" />
-            <Map />
-            <MapModal />
-            <Footer />
-        </div>
-    </html>
+    <div>
+        <Header />
+        <Welcome />
+        <AboutMe />
+        <Skills />
+        <Projects :projects="getProjs()" />
+        <Map />
+        <MapModal />
+        <Footer />
+    </div>
 </template>
 
 <script>
