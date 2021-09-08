@@ -1,16 +1,20 @@
 <template>
-    
-    <div>
-        <Header />
-        <Welcome />
-        <AboutMe />
-        <Skills />
-        <Projects :projects="getProjs()" />
-        <Map />
-        <MapModal />
-        <Footer />
-    </div>
-
+    <html lang="en" amp>
+        <head>
+        <title>YozoraWolf</title>
+        ...
+        </head>
+        <div>
+            <Header />
+            <Welcome />
+            <AboutMe />
+            <Skills />
+            <Projects :projects="getProjs()" />
+            <Map />
+            <MapModal />
+            <Footer />
+        </div>
+    </html>
 </template>
 
 <script>
@@ -25,14 +29,9 @@ import Footer from './components/Footer.vue';
 
 export default {
     name: 'App',
-    watch: {
-            title: {
-                immediate: true,
-                handler() {
-                    document.title = "YorozaWolf";
-                }
-            }
-        },
+    metaInfo: {
+      title: 'YozoraWolf'
+    },
     components: {
         Header,
         Welcome,
