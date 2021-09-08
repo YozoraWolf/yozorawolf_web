@@ -1,4 +1,5 @@
 <template>
+    
     <div>
         <Header />
         <Welcome />
@@ -24,6 +25,14 @@ import Footer from './components/Footer.vue';
 
 export default {
     name: 'App',
+    watch: {
+            title: {
+                immediate: true,
+                handler() {
+                    document.title = "YorozaWolf";
+                }
+            }
+        },
     components: {
         Header,
         Welcome,
