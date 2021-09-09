@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <font-awesome-icon class="user_i" :icon="['fa','user']"/>
+        <svg class="user_i"></svg>
         <h1 class="am_title">About Me</h1>
         <p class="am_desc">My name is Frank, I'm a full time programmer. I dedicate myself to frontend/backend development. I've been programming since I was 13 years old, with a huge passion with scripting on small servers. I've done small and big projects in which I've put my full potential to learn new technologies and techniques to apply to my day-to-day habits. My goal is to achieve excellence and optimize my work as much as I can.</p>
 
@@ -37,7 +37,11 @@ export default {
         align-items: center;
 
         .user_i {
-            font-size: 50px;
+            background-image: url("../assets/user-solid.svg");
+            background-size: 100% 100%;
+            fill: $text-color;
+            width: 50px;
+            height: 50px;
             margin-top: 20px;
         }
 
@@ -48,7 +52,7 @@ export default {
         .am_title {
             color: $text-color;
             font-size: 30px;
-            margin: 20px;
+            margin: 15px;
         }
 
         .am_desc {

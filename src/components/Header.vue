@@ -1,6 +1,6 @@
 <template>
     <div class="header">
-        <font-awesome-icon class="icon" :icon="['fab', 'wolf-pack-battalion']" /> 
+        <svg class="icon"></svg>
         <div class="title">YozoraWolf</div>
     </div>
 </template>
@@ -35,6 +35,9 @@ export default {
         box-shadow: .4px .4px 8px 0px black;
 
         .icon {
+            background-image: url("../assets/wolf.svg");
+            background-size: 100% 100%;
+
             justify-self: center;
             align-self: center;
             color: white;
