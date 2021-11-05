@@ -1,7 +1,7 @@
 <template>
     <div>
         <span></span>
-        <div class="welcome_pic" :style="{ backgroundImage: 'linear-gradient(180deg, rgba(0,0,0,.5) 0%, rgba(0,0,0,.5) 100%), url('+welcome+')' }">
+        <div class="welcome_pic">
             <div class="fade"></div>
             <h1 class="welcome_title">Welcome to my Website!</h1>
         </div>
@@ -10,12 +10,7 @@
 
 <script>
 export default {
-    name: "Welcome",
-    data() {
-        return {
-            welcome: require("./../assets/bgs/main4.jpg") 
-        }
-    }
+    name: "Welcome"
 }
 </script>
 
@@ -26,8 +21,11 @@ export default {
         width: 100%;
         height:500px;
 
-        background-size: 100% 100%;
+        background: linear-gradient(to right, black 0%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0) 90%, black 100%), url('./../assets/bgs/main6.jpg') no-repeat;
+        background-color: black;
+        background-size: 70% 100%;
         background-position: center;
+
 
     
         display: flex;
@@ -37,7 +35,8 @@ export default {
             align-self: center;
             color: white;
             font-family: $ffamily;
-            font-size: 40px;
+            font-size: 80px;
+            font-weight: 100;
 
             text-align: center;
 

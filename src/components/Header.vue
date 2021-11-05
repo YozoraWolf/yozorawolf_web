@@ -56,9 +56,9 @@ export default {
             justify-self: center;
             align-self: center;
             color: white;
-            font-size: 20px;
+            font-size: 30px;
             font-family: $ffamily;
-            font-weight: bold;
+            font-weight: 100;
 
             margin: 12px;
             margin-left: 5px;

@@ -3,7 +3,7 @@
     <div class="proj_container">
     <h1 class="proj_title">Projects</h1>
     <div class="projs">
-        <div :key="proj.id" class="proj" v-for="proj in projects">
+        <div :key="proj.id" class="proj" v-for="proj in projects" data-aos="zoom-in" data-aos-duration="1000"> 
             
             <div class="proj_rect" :style="{ backgroundImage: 'linear-gradient(180deg, rgba(0,0,0,.5) 0%, rgba(0,0,0,.5) 100%), url('+getProjLogo(proj.logo_url)+')' }">
 
@@ -30,10 +30,19 @@
 </template>
 
 <script>
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 export default {
     name: "Projects",
     props: {
         projects: Array
+    },
+    created() {
+        AOS.init({
+            once: true
+        });
     },
     methods: {
         getProjLogo(logo) {

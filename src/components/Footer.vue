@@ -3,7 +3,7 @@
         <div class="section_one">
             <div class="contact_info">
                 <b class="name">YozoraWolf</b>
-                <i class="ps">Programming Specialist</i>
+                <i class="ps">Full Stack Programmer</i>
                 <span class="contact">
                     <b>E-Mail:</b> yozorawolf@gmail.com
                 </span>

@@ -4,7 +4,7 @@
           <div class="modal">
                 
             <div class="header">
-                <img class="flag" :src="'https://www.countryflags.io/'+ mapItem.id+'/shiny/64.png'">
+                <img class="flag" :src="'https://flagcdn.com/h60/'+ mapItem.id+'.png'">
                 <span class="head">{{mapItem.name}}</span>
             </div>
 
