@@ -9,7 +9,7 @@
                        :startColor="'#0e6bc2'"
                        :stopColor="'#0e6bc2'"
                        :innerStrokeColor="'#DADADA'">
-            <img :src="'https://www.countryflags.io/'+lang.country+'/shiny/64.png'"
+            <img :src="'https://flagcdn.com/h60/'+lang.country+'.png'"
             v-tooltip="showCerts(lang.certs)"
             >
             </radial-progress-bar>
@@ -181,7 +181,7 @@ export default {
 
         img {
             width:50px;
-
+            box-shadow: 0px 0px 3px 1px black;
         }
 
         .lang_t {
